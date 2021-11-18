@@ -16,17 +16,23 @@ a, a:hover, a:focus, button:hover, button:focus{
 }
 
 body {
-    background: #f8f8f8;
-    color: #000000;
-    font-size: 18px;
+    background: #ffffff;
+    color: #1f242c;
+    font-size: 14px;
     line-height: 24px;
-     font-family: 'Candara';
+    font-family: 'Nunito Sans', sans-serif;
 }
 p{
-	line-height: 1.2;
+	line-height: 1.7;
 	margin-bottom: 15px;
 }
-
+a{
+	text-decoration: none;
+	color: #8ba1b5;
+}
+a:hover{
+	color: #2c3a54;
+}
 input[type=text],
 input[type=email],
 input[type=tel],
@@ -38,7 +44,7 @@ textarea{
 }
 ::selection {
   color: #fff;
-  background: #512C36;
+  background: #8ba1b5;
 }
 /*-- app gap use pattern --*/
 /*data-xxs = 575

@@ -1,3 +1,69 @@
+.header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+}
+.header-inr {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-top: 45px;
+}
+.hdr-lft {
+    padding-right: 15px;
+}
+.hdr-rgt {
+    margin-left: auto;
+}
+nav.main-nav > ul{
+	display: flex;
+	align-items: center;
+	margin: 0 -35px;
+}
+nav.main-nav > ul > li{
+	position: relative;
+	padding: 0 35px;
+}
+nav.main-nav > ul > li > a{
+	font-size: 14px;
+	font-weight: 600;
+	color: #282f4a;
+	text-transform: uppercase;
+	display: inline-block;
+}
+nav.main-nav > ul > li > a:hover{
+	color: #1f272c;
+}
+nav.main-nav > ul > li.btn-cntlr > a{
+	padding: 11px;
+	background: #fff;
+	color: #2c3a54;
+	min-width: 140px;
+	display: inline-block;
+	text-align: center;
+	border-radius: 25px;
+	padding-top: 13px;
+	padding-bottom: 9px;
+}
+nav.main-nav > ul > li.login-cntlr > a{
+	color: #ffffff;
+}
+nav.main-nav > ul > li.login-cntlr {
+	padding-left: 55px;
+}
+
+
+
+
+
+
+
+
+
+
+
 nav.main-nav ul{
 
 }
@@ -7,15 +73,7 @@ nav.main-nav ul li{
 nav.main-nav ul li a{
 	
 }
-nav.main-nav > ul{
 
-}
-nav.main-nav > ul > li{
-
-}
-nav.main-nav > ul > li > a{
-
-}
 
 nav.main-nav > ul > li.current-menu-item > a{
 
