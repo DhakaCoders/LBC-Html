@@ -1,0 +1,45 @@
+/*----- max-width 1199px -----*/
+@media(max-width: 1199px){
+	.hide-md{
+		display: none!important;
+	}
+	.show-md{
+		display: block!important;
+	}
+
+}
+
+/*----- max-width 991px -----*/
+@media(max-width: 991px){
+
+}
+
+/*----- max-width 767px -----*/
+@media(max-width: 767px){
+	.hide-xs{
+		display: none!important;
+	}
+	.show-xs{
+		display: block!important;
+	}
+}
+
+
+/*----- max-width 639 -----*/
+@media(max-width: 639px){
+
+}
+
+
+
+/*----- max-width 439 -----*/
+@media(max-width: 479px){
+
+
+}
+
+
+/*----- max-width 369 -----*/
+@media(max-width: 359px){
+
+}
