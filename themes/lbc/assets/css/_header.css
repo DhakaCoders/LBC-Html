@@ -1,3 +1,5 @@
+
+
 .header{
 	position: absolute;
 	top: 0;
@@ -5,12 +7,14 @@
 	right: 0;
 	z-index: 10;
 }
+	
 .header-inr {
     display: flex;
     align-items: center;
     position: relative;
     padding-top: 45px;
 }
+	
 .hdr-lft {
     padding-right: 15px;
 }
@@ -18,11 +22,13 @@
     margin-left: auto;
 }
 nav.main-nav > ul{
+
 	display: flex;
 	align-items: center;
 	margin: 0 -35px;
 }
 nav.main-nav > ul > li{
+
 	position: relative;
 	padding: 0 35px;
 }
@@ -77,12 +83,4 @@ nav.main-nav ul li a{
 
 nav.main-nav > ul > li.current-menu-item > a{
 
-}
-
-nav.main-nav > ul > li.menu-item-has-children > a{
-
-}
-
-nav.main-nav > ul > li.menu-item-has-children ul.sub-menu{
-	
 }
