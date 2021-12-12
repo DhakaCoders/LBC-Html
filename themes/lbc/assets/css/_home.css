@@ -1,0 +1,99 @@
+.hm-page-bnr-cntlr{
+	position: relative;
+}
+.hm-page-banner-rgt{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 950px;
+    z-index: 1;
+}
+.page-banner-bg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 45%;
+}
+.hm-page-banner-lft {
+    position: absolute;
+    top: 155px;
+    left: 5%;
+}
+.hm-page-bnr-des{
+	position: relative;
+	z-index: 3;
+
+}
+.hm-page-bnr-des-inr{
+	position: relative;
+    padding-top: 55px;
+}
+
+.hm-page-bnr-des-rgt-bg {
+    position: absolute;
+    top: -20px;
+    right: -30px;
+}
+
+.hm-page-bnr-des{
+	display: flex;
+    align-items: center;
+    padding-top: 240px;
+}
+.hm-bnr-title{
+	text-transform: uppercase;
+	line-height: 0.9;
+}
+.fl-btn-arow{
+	display: inline-block;
+    vertical-align: baseline;
+    max-width: 200px;
+    width: 100%;
+    color: #fff;
+    background: #8ba1b5;
+    font-size: 13px;
+    line-height: 1.1;
+    text-align: center;
+    padding: 17px 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 500;
+    border: 6px solid #f3f5f7;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    border-radius: 40px;
+    letter-spacing: 1px;
+}
+.fl-btn-arow span{
+	display: inline-block;
+	vertical-align: baseline;
+	padding-right: 40px;
+	position: relative;
+
+}
+.fl-btn-arow span i{
+	position: absolute;
+	right: -19px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.hm-banner-des p{
+	color: #1f242c;
+	font-size: 14px;
+}
+.hm-page-bnr-sub-title,
+.hm-page-bnr-title{
+	margin-bottom: 0px;
+}
+.hm-page-bnr-title {
+    line-height: 0.8;
+}
+.hm-page-bnr-sub-title {
+    padding-right: 50px;
+}
