@@ -67,7 +67,7 @@
 .ftr-col-menu ul li a,
 .ftr-col-btw{
     text-decoration: none; 
-    color: #7D8D98;
+    color: #fff;
     font-size: 16px;
     line-height: 1;
 }
@@ -77,12 +77,15 @@
 .ftr-top-col a:hover{
     color: #fff;
 }
+.ftr-col-mail span,
+.ftr-col-tel span, 
 .ftr-col-title{
     text-transform: capitalize;
     margin-bottom: 15px;
     font-weight: 700;
     position: relative;
     display: inline-block;
+    color: #fff;
 }
 .ftr-top-col-4 .ftr-col-title {
     margin-bottom: 25px
